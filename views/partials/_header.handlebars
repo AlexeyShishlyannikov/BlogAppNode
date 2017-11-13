@@ -1,7 +1,7 @@
 <nav class="grey darken-3">
 	<div class="container">
 		<div class="nav-wrapper">
-			<a href="/stories" class="brand-logo center">StoryBooks</a>
+			<a href="/" class="brand-logo center">Storybooks</a>
 			<a href="#" data-activates="main-menu" class="button-collapse show-on-large"><i class="fa fa-bars"></i></a>
 			{{!-- Right nav --}}
 			<ul class="right hide-on-small-only">
@@ -9,7 +9,7 @@
 					<li><a href="/dashboard">Welcome {{user.firstName}}</a></li>
 					<li><a href="/auth/logout"> <i class="fa fa-sign-out"></i>Logout</a></li>
 				{{else}}
-					<li><a href="/sories"><i class="fa fa-book"></i> Public Stories</a></li>
+					<li><a href="/stories"><i class="fa fa-book"></i> Public Stories</a></li>
 				{{/if}}
 			</ul>
 			{{!-- Side menu --}}
@@ -22,7 +22,7 @@
 				</li>
 				 {{/if}}
 				<li>
-					<a href="/sories">
+					<a href="/stories">
 						<i class="fa fa-book"></i> Public Stories
 						</a>
 				</li>
